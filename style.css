@@ -1,0 +1,133 @@
+body{
+    font-family: 'Alef';
+    font-size: 15px;
+}
+
+.dbz{
+    background: url('img/bg-dbz.jpg') no-repeat center center fixed;
+    background-size: cover;
+ }
+ 
+ .bnh{
+     background: url('img/bg-bnh.jpg') no-repeat center center fixed;
+     background-size: cover;
+ }
+
+ .cdz{
+    background: url('img/bg-cdz.jpg') no-repeat center center fixed;
+    background-size: cover;
+ }
+
+ .nar{
+    background: url('img/bg-nar.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.fma{
+    background: url('img/bg-fa.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.ble{
+    background: url('img/bg-ble.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.yyh{
+    background: url('img/bg-yyh.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.ruk{
+    background: url('img/bg-ruk.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.nnt{
+    background: url('img/bg-nnt.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+ 
+ input[type=image]{
+     border-radius: 50%;
+ }
+
+.container
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    padding: 80px 40px;
+    height: 420px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,.5);
+}
+
+.user
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: calc(-100px/2);
+    left: calc(50% - 50px);
+}
+
+.container label
+{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #fff;
+}
+
+.container input
+{
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: solid 1px #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+::placeholder
+{
+    color: rgba(255,255,255, .5)
+}
+
+.container button
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font: 16px;
+    background: #0384fd;
+    cursor: pointer;
+    padding: 10px 16px;
+    border-radius: 5px;
+}
+
+.container button:hover
+{
+    background-color: #2c017a;
+    color: #fff;
+    border-bottom: solid 1 px #333;
+}
+
+.container a
+{
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
