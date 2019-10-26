@@ -118,16 +118,17 @@ input[type=image]
     height: 40px;
     color: #fff;
     font-size: 16px;
-    background: #0384fd;
+    background: #ee5903;
     cursor: pointer;
     padding: 10px 16px;
     border-radius: 5px;
+    margin: 5px 0;
 }
 
 .container button:hover
 {
-    background-color: #2c017a;
-    color: #fff;
+    background-color:#fff;
+    color:  #ee5903;
     border-bottom: solid 1 px #333;
 }
 
