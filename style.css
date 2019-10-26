@@ -1,56 +1,64 @@
-body{
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body
+{
     font-family: 'Alef';
     font-size: 15px;
 }
 
-.dbz{
-    background: url('img/bg-dbz.jpg') no-repeat center center fixed;
-    background-size: cover;
- }
+.dbz 
+{
+    background: url('img/bg-dbz.jpg') no-repeat center center / cover fixed;
+}
  
- .bnh{
-     background: url('img/bg-bnh.jpg') no-repeat center center fixed;
-     background-size: cover;
- }
-
- .cdz{
-    background: url('img/bg-cdz.jpg') no-repeat center center fixed;
-    background-size: cover;
- }
-
- .nar{
-    background: url('img/bg-nar.png') no-repeat center center fixed;
-    background-size: cover;
+.bnh 
+{
+    background: url('img/bg-bnh.jpg') no-repeat center center / cover fixed;
 }
 
-.fma{
-    background: url('img/bg-fa.jpg') no-repeat center center fixed;
-    background-size: cover;
+.cdz 
+{
+    background: url('img/bg-cdz.jpg') no-repeat center center / cover fixed;
 }
 
-.ble{
-    background: url('img/bg-ble.jpg') no-repeat center center fixed;
-    background-size: cover;
+.nar 
+{
+    background: url('img/bg-nar.png') no-repeat center center / cover fixed;
 }
 
-.yyh{
-    background: url('img/bg-yyh.png') no-repeat center center fixed;
-    background-size: cover;
+.fma 
+{
+    background: url('img/bg-fa.jpg') no-repeat center center / cover fixed;
 }
 
-.ruk{
-    background: url('img/bg-ruk.jpg') no-repeat center center fixed;
-    background-size: cover;
+.ble 
+{
+    background: url('img/bg-ble.jpg') no-repeat center  / cover fixed;
 }
 
-.nnt{
-    background: url('img/bg-nnt.jpg') no-repeat center center fixed;
-    background-size: cover;
+.yyh
+{
+    background: url('img/bg-yyh.png') no-repeat center center / cover fixed;
 }
 
- 
- input[type=image]{
-     border-radius: 50%;
+.ruk
+{
+    background: url('img/bg-ruk.jpg') no-repeat center center / cover fixed;
+}
+
+.nnt
+{
+    background: url('img/bg-nnt.jpg') no-repeat center center / cover fixed;
+}
+
+
+input[type=image]
+ {
+    border-radius: 50%;
  }
 
 .container
@@ -85,7 +93,7 @@ body{
     color: #fff;
 }
 
-.container input
+.container .text-input
 {
     width: 100%;
     margin-bottom: 20px;
@@ -98,7 +106,7 @@ body{
     font-size: 16px;
 }
 
-::placeholder
+.text-input::placeholder
 {
     color: rgba(255,255,255, .5)
 }
@@ -109,7 +117,7 @@ body{
     outline: none;
     height: 40px;
     color: #fff;
-    font: 16px;
+    font-size: 16px;
     background: #0384fd;
     cursor: pointer;
     padding: 10px 16px;
@@ -129,5 +137,4 @@ body{
     font-size: 14px;
     font-weight: bold;
     text-decoration: none;
-    
 }

@@ -9,15 +9,14 @@
     <link rel="stylesheet" href="style.css">
     <title>Anime Form | Login</title>
 </head>
-<body>
-        <embed height="60" type="audio/midi" width="144" src="audio.mp3" volume="60" loop="false" autostart="false" />
+<body class="dbz">
     <div class="container">
-        <img src="img/nnt.png" alt="" class="user">
+        <img src="img/dbz.png" alt="" class="user">
         <form action="">
-            <label for="">EMAIL</label>
-            <input type="email" placeholder="Your Email..">
-            <label for="">PASSWORD</label>
-            <input type="password" placeholder="Your Password">
+            <label class="email">EMAIL</label>
+            <input class="text-input" type="email" placeholder="Your Email..">
+            <label>PASSWORD</label>
+            <input class="text-input" type="password" placeholder="Your Password">
             <button>Sign In</button>
         </form>
         <div>
@@ -28,15 +27,15 @@
         </div>
     </div>
     <div>
-        <input type="image" onclick="Nnt()" src="img/nnt.png"  width="35px" height="35px" alt="">
-        <input type="image" onclick="Dbz()" src="img/dbz.png"  width="35px" height="35px" alt="">
-        <input type="image" onclick="Bnh()" src="img/bnh.png"  width="35px" height="35px" alt="">
-        <input type="image" onclick="Cdz()" src="img/cdz.jpg"  width="35px" height="35px" alt="">
-        <input type="image" onclick="Nar()" src="img/nar.png"  width="35px" height="35px" alt="">
-        <input type="image" onclick="Fma()" src="img/fma.png"  width="35px" height="35px" alt="">
-        <input type="image" onclick="Ble()" src="img/ble.png"  width="35px" height="35px" alt="">
-        <input type="image" onclick="Yyh()" src="img/yyh.png"  width="35px" height="35px" alt="">
-        <input type="image" onclick="Ruk()" src="img/ruk.png"  width="35px" height="35px" alt="">
+        <input type="image" onclick="changeTheme('nnt')" src="img/nnt.png"  width="35px" height="35px" alt="">
+        <input type="image" onclick="changeTheme('dbz')" src="img/dbz.png"  width="35px" height="35px" alt="">
+        <input type="image" onclick="changeTheme('bnh')" src="img/bnh.png"  width="35px" height="35px" alt="">
+        <input type="image" onclick="changeTheme('cdz')" src="img/cdz.jpg"  width="35px" height="35px" alt="">
+        <input type="image" onclick="changeTheme('nar')" src="img/nar.png"  width="35px" height="35px" alt="">
+        <input type="image" onclick="changeTheme('fma')" src="img/fma.png"  width="35px" height="35px" alt="">
+        <input type="image" onclick="changeTheme('ble')" src="img/ble.png"  width="35px" height="35px" alt="">
+        <input type="image" onclick="changeTheme('yyh')" src="img/yyh.png"  width="35px" height="35px" alt="">
+        <input type="image" onclick="changeTheme('ruk')" src="img/ruk.png"  width="35px" height="35px" alt="">
     </div>
     <script src="script.js"></script>
 </body>
